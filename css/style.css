@@ -28,7 +28,13 @@ a{
 }
 
 .bg-image-2{
-    background-image: url(../images/bg2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)),
+    url(../images/bg2.jpg);
+}
+
+.bg-image-3{
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.8)), 
+    url(../images/bg3.jpg);
 }
 
 .image-hero{
@@ -65,5 +71,40 @@ a{
 }
 
 .image-form{
-    width: 420px;
+    width: 80%;
+}
+
+.box-image-form{
+    /* border: 1px solid #000; */
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.forms{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms-bar{
+    width: 400px;
+}
+
+.hero2{
+    display: flex;
+}
+
+.bar-projects{
+    background-color: #D57E37;
+    width: 500px;
+    height: 5px;
+    margin: 5px auto;
+    border-radius: 7px;
 }
